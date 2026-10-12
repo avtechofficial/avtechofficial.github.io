@@ -26,3 +26,23 @@
 .floating-email:hover {
   background: #244b65;
 }
+```css
+/* Social media links */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--orange);
+}
+```
