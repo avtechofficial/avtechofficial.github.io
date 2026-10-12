@@ -4,3 +4,21 @@
 @media(max-width:1000px){.site-header{gap:15px;padding:0 4%}.nav{gap:14px}.service-grid{grid-template-columns:repeat(3,1fr)}.project-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.site-header{height:70px}.brand-logo{width:175px;max-height:58px}.menu-toggle{display:block;order:3}.site-header>.button{display:none}.nav{display:none;position:absolute;top:70px;left:0;right:0;background:white;padding:18px 6%;box-shadow:0 10px 18px #0001;flex-direction:column;gap:15px}.nav.open{display:flex}.hero{min-height:540px;background-position:60% center}.hero-shade{background:linear-gradient(90deg,rgba(9,17,26,.88),rgba(9,17,26,.52))}.hero-content{width:88%;padding:60px 0}.hero h1{letter-spacing:-1.3px}.hero-copy{font-size:15px}.section{padding:60px 5%}.service-grid{grid-template-columns:repeat(2,1fr);gap:11px}.service-card{padding:19px 15px}.service-card h3{font-size:15px}.project-grid{gap:12px}.project-card img{height:160px}.project-card figcaption{padding:12px}.about-section{grid-template-columns:1fr}.about-photo{min-height:270px}.about-copy{padding:45px 7%}.contact-section{padding:50px 7%;align-items:flex-start;flex-direction:column}.footer{padding:25px 6%;flex-wrap:wrap}.footer p{order:3;width:100%}}
 @media(max-width:390px){.service-grid{grid-template-columns:1fr}.project-card img{height:135px}.hero-actions .button{padding:12px 15px}}
+
+.floating-email {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #17354a;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px #0003;
+  z-index: 1000;
+}
