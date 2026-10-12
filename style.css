@@ -63,3 +63,12 @@
     justify-content: flex-start;
   }
 }
+
+/* Keep footer content aligned neatly */
+.footer {
+  flex-wrap: wrap;
+}
+
+.social-links {
+  flex-shrink: 0;
+}
