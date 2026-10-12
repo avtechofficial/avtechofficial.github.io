@@ -26,23 +26,35 @@
 .floating-email:hover {
   background: #244b65;
 }
-/* Social media links */
+/* Facebook and Instagram logo buttons */
 .social-links {
   display: flex;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .social-links a {
-  color: var(--ink);
-  font-weight: 700;
-  font-size: 13px;
-  transition: color 0.2s;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: var(--ink);
+  border: 1px solid #e7e9eb;
+  border-radius: 50%;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.social-links svg {
+  width: 22px;
+  height: 22px;
+  display: block;
 }
 
 .social-links a:hover {
-  color: var(--orange);
+  background: var(--orange);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 700px) {
