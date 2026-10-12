@@ -1,7 +1,7 @@
 // IMPORTANT: Replace this with your WhatsApp number including country code.
 // India example format: 919876543210 (no +, spaces or hyphens).
-//const WHATSAPP_NUMBER = "91XXXXXXXXXX";
-//const WHATSAPP_MESSAGE = "Hello AVTECH, I am interested in your construction services. Please contact me.";
+const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+const WHATSAPP_MESSAGE = "Hello AVTECH, I am interested in your construction services. Please contact me.";
 
 document.querySelectorAll(".whatsapp-link").forEach((link) => {
   link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
