@@ -22,3 +22,20 @@
   box-shadow: 0 4px 12px #0003;
   z-index: 1000;
 }
+.floating-email {
+  position: fixed;
+  right: 14px;
+  bottom: 20px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #17354a;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px #0003;
+  z-index: 1000;
+}
