@@ -1,18 +1,7 @@
-
-const EMAIL_ADDRESS = "avtechofficial26@gmail.com";
-const EMAIL_SUBJECT = "Construction Service Enquiry";
-const EMAIL_MESSAGE =
-  "Hello AVTECH, I am interested in your construction services. Please contact me.";
-
-document.querySelectorAll(".email-link").forEach((link) => {
-  link.href =
-    `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(EMAIL_SUBJECT)}&body=${encodeURIComponent(EMAIL_MESSAGE)}`;
-  link.removeAttribute("target");
-});
-
 const menuButton = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
 
+// Mobile navigation
 if (menuButton && nav) {
   menuButton.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("open");
@@ -27,7 +16,9 @@ if (menuButton && nav) {
   });
 }
 
+// Automatic copyright year
 const yearElement = document.getElementById("year");
+
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
