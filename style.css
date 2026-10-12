@@ -26,7 +26,6 @@
 .floating-email:hover {
   background: #244b65;
 }
-```css
 /* Social media links */
 .social-links {
   display: flex;
@@ -45,4 +44,10 @@
 .social-links a:hover {
   color: var(--orange);
 }
-```
+
+@media (max-width: 700px) {
+  .social-links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
