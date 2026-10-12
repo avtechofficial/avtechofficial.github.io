@@ -4,7 +4,7 @@ const EMAIL_SUBJECT = "Construction Service Enquiry";
 const EMAIL_MESSAGE =
   "Hello AVTECH, I am interested in your construction services. Please contact me.";
 
-document.querySelectorAll(".whatsapp-link").forEach((link) => {
+document.querySelectorAll(".email-link").forEach((link) => {
   link.href =
     `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(EMAIL_SUBJECT)}&body=${encodeURIComponent(EMAIL_MESSAGE)}`;
   link.removeAttribute("target");
